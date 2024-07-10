@@ -1,0 +1,151 @@
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 120px;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <100>;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.r{
+    color: #FD6E0A;
+font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.btn-primary{
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #491188;
+    border: none;
+    color: var(--White-Color, #FFF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 32px;
+}
+
+.btn-primary-btn-resume{
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #491188;
+    border: none;
+    color: var(--White-Color, #FFF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 32px;
+    margin-right: 20px;
+}
+
+.btn-primary-btn-projects{
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #491188;
+    border: none;
+    color: var(--White-Color, #FFF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 32px;
+}
+
+/* banner styles */
+
+.banner-greetings{
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.banner-description{
+    width: 680px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.profile-picture{
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px 0 120px;
+    background-image: url('../images/Group\ 9.png');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.banner-content{
+    max-width: 580px;
+}
