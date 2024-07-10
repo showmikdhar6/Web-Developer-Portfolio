@@ -4,7 +4,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 51px 120px;
+    margin: 0px 120px;
 }
 
 .open-sans-normal {
@@ -24,7 +24,7 @@ font-weight: 800;
 line-height: normal;
 }
 .r{
-    color: #FD6E0A;
+    color: #491188;
 font-family: "Open Sans";
 font-size: 45px;
 font-style: normal;
@@ -107,6 +107,7 @@ nav ul{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+   margin-bottom: 5px;
 }
 
 .banner-title{
@@ -116,6 +117,7 @@ nav ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 0px;
 }
 
 
@@ -148,4 +150,93 @@ nav ul{
 
 .banner-content{
     max-width: 580px;
+}
+
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.section-description{
+    /* align-self: stretch; */
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.secondary-background{ 
+    /* border-radius: 10px; */
+    background: #e4d2f986;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+/* mains styles */
+main{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-section{
+    border: #181818;
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+/* Skills Section Styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    flex-shrink: 0;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.skill-description{
+    width: 201px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
 }
